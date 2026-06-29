@@ -47,15 +47,15 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-bg.png"
+          src="/images/hero-image.png"
           alt="El Asilo de la Bestia"
           fill
           priority
-          className="object-cover object-center opacity-80"
+          className="object-cover object-center opacity-90"
         />
         {/* Gradient overlay — darkens left side for text legibility */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/20" />
       </div>
 
       {/* ── NAVBAR ── */}
@@ -63,7 +63,7 @@ export default function Hero() {
         {/* Logo mark (waveform icon) */}
         <Link href="/" aria-label="Inicio">
           <Image
-            src="/images/logo.svg"
+            src="/images/logo.jpeg"
             alt="Logo"
             width={48}
             height={36}
