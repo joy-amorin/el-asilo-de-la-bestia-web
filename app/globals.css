@@ -5,13 +5,6 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,8 +12,30 @@
   }
 }
 
+/* base theme (core system) */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* custom colors */
+@theme {
+  --color-abyss: #000000;
+  --color-parchment: #D4C9B0;
+  --color-blood: #DC2626;
+  --color-steel: #71717A;
+  --color-steel-light: #D4D4D8;
+
+  --font-heading: var(--font-anton);
+  --font-body: var(--font-geist-sans);
+}
+
+/* IMPORTANT */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
 }
