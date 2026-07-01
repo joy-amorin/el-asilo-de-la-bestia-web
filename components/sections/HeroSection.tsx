@@ -29,38 +29,8 @@ export default function Hero() {
         {/* Main content area */}
         <div className="flex-1 flex items-center">
           <div className="max-w-xl mt-4">
-            {/* Wings + title lockup */}
-            <div className="relative mb-6">es solo
-
-              {/* Title */}
-              <h1
-                className="relative z-10 font-black uppercase leading-none tracking-tight text-[clamp(3.5rem,9vw,7rem)]"
-                style={{
-                  fontFamily: "'Anton', 'Impact', sans-serif",
-                  color: "#d4c9b0",
-                  textShadow: "2px 4px 24px rgba(0,0,0,0.8), 0 0 60px rgba(0,0,0,0.6)",
-                  letterSpacing: "-0.01em",
-                }}
-              >
-               
-                <br />
-               
-                <br />
-               
-                <br />
-                
-              </h1>
-            </div>
-
-            {/* Tagline */}
-            <p className="text-[11px] tracking-[0.25em] text-zinc-300 uppercase mb-2">
-              ENTRE EL ORDEN Y EL{" "}
-              <span className="text-red-600 font-semibold">INSTINTO.</span>
-            </p>
-
-            {/* Red dash divider */}
-            <div className="w-8 h-0.5 bg-red-600 mb-8" />
-
+            <div className="mb-6 h-[clamp(10rem,20vw,18rem)]" />
+            
             {/* CTAs */}
             <div className="flex flex-col gap-3 max-w-xs">
               <Link
@@ -84,22 +54,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-
-
-        {/* ── FOOTER BAR ── */}
-        <footer className="relative z-10 flex items-center justify-between pt-6 border-t border-zinc-800/60">
-          <div className="flex items-center gap-6 text-[10px] tracking-[0.2em] text-zinc-500 uppercase">
-            <span>MONTEVIDEO, URUGUAY</span>
-            <span className="text-zinc-700">———</span>
-            <span>DESDE MMXII</span>
-            <div className="text-right">
-              <p>34.9011° S</p>
-              <p>56.1645° W</p>
-            </div>
-          </div>
-
-          {/* Hamburger / menu icon (right) */}
-        </footer>
       </div>
     </section>
   );

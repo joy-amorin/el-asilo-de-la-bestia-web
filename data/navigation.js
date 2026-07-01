@@ -1,8 +1,8 @@
 export const navLinks = [
-  { label: "LA BANDA", href: "#" },
-  { label: "OBRAS", href: "#" },
-  { label: "FECHAS", href: "#" },
-  { label: "GALERÍA", href: "#" },
-  { label: "MERCH", href: "#" },
-  { label: "CONTACTO", href: "#" },
+  { label: "LA BANDA", href: "/about" },
+  { label: "OBRAS", href: "/musica" },
+  { label: "FECHAS", href: "/shows" },
+  { label: "GALERÍA", href: "/multimedia" },
+  { label: "MERCH", href: "/merch" },
+  { label: "CONTACTO", href: "/contacto" },
 ];
