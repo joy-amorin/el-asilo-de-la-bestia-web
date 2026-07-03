@@ -1,9 +1,9 @@
-export default function Page() {
+import MultimediaSection from "@/components/multimedia/MultimediaSection";
+
+export default function MultimediaPage() {
   return (
-    <main className="min-h-screen bg-abyss text-parchment">
-      <h1 className="font-heading text-4xl uppercase">
-        Multimedia
-      </h1>
+    <main className="relative bg-abyss text-parchment overflow-hidden">
+      <MultimediaSection />
     </main>
   );
 }

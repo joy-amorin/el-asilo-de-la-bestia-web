@@ -11,7 +11,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-image.png"
+          src="/bio/band-photo.png"
           alt="El Asilo de la Bestia"
           fill
           priority
