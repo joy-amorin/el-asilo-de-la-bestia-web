@@ -70,7 +70,7 @@ export default function DiscographyItem({
             href={release.spotify}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-3 bg-[#d4c9b0] text-black text-[11px] tracking-[0.2em] font-bold uppercase hover:bg-blood transition-colors group"
+            className="inline-flex items-center justify-center border border-blood bg-blood px-8 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:bg-red-700"
           >
             Escuchar
           </a>
