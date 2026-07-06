@@ -1,9 +1,11 @@
+import ShowsSections from "@/components/shows/ShowsSection";
+
 export default function Page() {
   return (
-    <main className="min-h-screen bg-abyss text-parchment">
-      <h1 className="font-heading text-4xl uppercase">
-        Shows
-      </h1>
+    <main className="relative bg-abyss text-parchment overflow-hidden">
+
+      <ShowsSections />
+
     </main>
   );
 }
