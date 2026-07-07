@@ -6,7 +6,7 @@ import { SpotifyIcon, YouTubeIcon, InstagramIcon, FacebookIcon } from "@/compone
 
 export default function Nav() {
     return (
-      <nav className="relative z-20 flex items-center justify-between px-8 py-5">
+      <nav className="sticky top-0 z-20 flex items-center justify-between bg-abyss px-8 py-5">
         {/* Logo mark (waveform icon) */}
         <Link href="/" aria-label="Inicio">
           <Image
