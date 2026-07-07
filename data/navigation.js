@@ -5,5 +5,5 @@ export const navLinks = [
   { label: "FECHAS", href: "/shows" },
   { label: "PRENSA", href: "/prensa" },
   { label: "MERCH", href: "/merch" },
-  { label: "CONTACTO", href: "/contacto" },
+  { label: "CONTACTO", href: "#contacto" },
 ];
