@@ -15,13 +15,12 @@ export default function Hero() {
           alt="El Asilo de la Bestia"
           fill
           priority
-          className="object-cover object-center opacity-90"
+          className="object-cover object-[center_35%] opacity-90"
         />
         {/* Gradient overlay — darkens left side for text legibility */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/20" />
       </div>
-      <Nav />
 
       
       {/* ── HERO CONTENT ── */}
