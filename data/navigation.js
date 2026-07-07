@@ -1,8 +1,9 @@
 export const navLinks = [
   { label: "BIOGRAFÍA", href: "/about" },
+  { label: "NUESTRA MÚSICA", href: "/multimedia" },
   { label: "EN VIVO", href: "/gallery" },
-  { label: "SHOWS", href: "/shows" },
-  { label: "MULTIMEDIA", href: "/multimedia" },
+  { label: "FECHAS", href: "/shows" },
+  { label: "PRENSA", href: "/prensa" },
   { label: "MERCH", href: "/merch" },
   { label: "CONTACTO", href: "/contacto" },
 ];
