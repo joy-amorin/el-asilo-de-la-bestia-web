@@ -24,8 +24,6 @@ export default function ShowsSection() {
               Próximos Shows
             </h3>
 
-            <div className="flex-1 h-px bg-white/10"></div>
-
           </div>
 
           <div className="border-t border-white/10">
