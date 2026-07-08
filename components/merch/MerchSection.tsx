@@ -150,33 +150,6 @@ export default function MerchSection() {
 
         {/* ===================== BENEFICIOS ===================== */}
 
-        <section className="border border-white/10">
-
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
-
-            {features.map((feature) => (
-
-              <div
-                key={feature.id}
-                className="p-8 border-b xl:border-b-0 xl:border-r last:border-r-0 border-white/10"
-              >
-
-                <h4 className="font-heading uppercase text-xl mb-4">
-                  {feature.title}
-                </h4>
-
-                <p className="font-body text-steel-light leading-7">
-                  {feature.description}
-                </p>
-
-              </div>
-
-            ))}
-
-          </div>
-
-        </section>
-
       </div>
     </section>
   );
