@@ -104,28 +104,5 @@ export const mugs = [
 ];
 
 export const features = [
-  {
-    id: 1,
-    title: "Envíos a todo Uruguay y el mundo",
-    description:
-      "Envíos seguros y rastreables para que recibas tu pedido sin importar dónde estés.",
-  },
-  {
-    id: 2,
-    title: "Pagos 100% seguros",
-    description:
-      "Aceptamos Mercado Pago, tarjetas de crédito, débito y transferencias bancarias.",
-  },
-  {
-    id: 3,
-    title: "Cambios y devoluciones",
-    description:
-      "Tenés hasta 10 días para solicitar cambios por talle o devoluciones según disponibilidad.",
-  },
-  {
-    id: 4,
-    title: "¿Tenés dudas?",
-    description:
-      "Escribinos y te ayudaremos a elegir el talle, producto o método de envío ideal.",
-  },
+ 
 ];
