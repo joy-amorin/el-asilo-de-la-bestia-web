@@ -1,7 +1,13 @@
 export interface GalleryItem {
-  id: number;
+  id: string;
   image: string;
   title: string;
-  category: string;
   size: "normal" | "wide" | "large";
+}
+
+export interface GalleryEvent {
+  id: string;
+  name: string;
+  location: string;
+  images: GalleryItem[];
 }

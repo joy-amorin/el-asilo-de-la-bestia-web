@@ -1,21 +1,39 @@
 import GalleryImage from "./GalleryImage";
-import { GalleryItem } from "@/app/types/gallery";
+import { GalleryEvent } from "@/app/types/gallery";
 
 interface GalleryGridProps {
-  images: GalleryItem[];
+  events: GalleryEvent[];
 }
 
 export default function GalleryGrid({
-  images,
+  events,
 }: GalleryGridProps) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="space-y-16">
 
-      {images.map((image) => (
-        <GalleryImage
-          key={image.id}
-          image={image}
-        />
+      {events.map((event) => (
+        <section key={event.id}>
+
+          <header className="mb-6">
+            <h2 className="font-heading uppercase text-4xl text-parchment">
+              {event.name}
+            </h2>
+
+            <p className="text-steel-light uppercase tracking-widest text-sm">
+              {event.location}
+            </p>
+          </header>
+
+          <div className="columns-1 md:columns-2 lg:columns-3 gap-4">
+            {event.images.map((image) => (
+              <GalleryImage
+                key={image.id}
+                image={image}
+              />
+            ))}
+          </div>
+
+        </section>
       ))}
 
     </div>
