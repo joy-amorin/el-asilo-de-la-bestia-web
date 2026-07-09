@@ -1,4 +1,5 @@
 export const navLinks = [
+  { label: "INICIO", href: "/"},
   { label: "BIOGRAFÍA", href: "/about" },
   { label: "NUESTRA MÚSICA", href: "/multimedia" },
   { label: "EN VIVO", href: "/gallery" },
@@ -6,4 +7,5 @@ export const navLinks = [
   { label: "PRENSA", href: "/prensa" },
   { label: "MERCH", href: "/merch" },
   { label: "CONTACTO", href: "#contacto" },
+  
 ];
