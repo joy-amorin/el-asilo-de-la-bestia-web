@@ -16,7 +16,7 @@ export const discography = [
     title: "Alfonsina y el mar",
     cover: "/multimedia/Alfonsina.png",
     description:
-      "Versión de \"Alfonsina y el mar\", clásico popularizado por Mercedes Sosa e interpretado con el sello de la banda.",
+      "Versión de un clásico popularizado por Mercedes Sosa, e interpretado con el sello de la banda.",
     spotify: "https://open.spotify.com/intl-es/track/5XVPUbZ15TKyJWXF8ohQk3?si=ca6540c2a9584723",
   },
   {
@@ -46,7 +46,7 @@ export const discography = [
     title: "Marinero de luces",
     cover: "/multimedia/Marinero-de-luces.png",
     description:
-      "Versión de \"Marinero de luces\", de José Luis Perales.",
+      "Versión de un clásico de José Luis Perales.",
     spotify: "https://open.spotify.com/intl-es/track/74JWqVaHxALN8H6tuUHu5d?si=6c69c3e5b5954658",
   },
 ];
