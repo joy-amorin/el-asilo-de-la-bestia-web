@@ -46,7 +46,7 @@ export default function ProductCard({
 
         <a
           href={product.url}
-          className="mt-auto inline-flex items-center justify-center border border-white/10 px-6 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:border-blood hover:bg-blood"
+          className="mt-auto inline-flex items-center justify-center border border-blood bg-blood px-6 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:bg-red-700"
         >
           {product.buttonText}
         </a>

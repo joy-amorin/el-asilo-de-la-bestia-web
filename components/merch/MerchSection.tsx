@@ -1,10 +1,10 @@
 import Image from "next/image";
 import ProductCard from "./ProductCard";
+import { InstagramIcon, WhatsAppIcon } from "@/components/ui/SocialIcons";
 import {
   shirts,
   accessories,
   mugs,
-  features,
 } from "./data";
 
 export default function MerchSection() {
@@ -13,35 +13,32 @@ export default function MerchSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 py-24">
 
         {/* Header */}
-            <div className="flex flex-col items-center text-center mb-24">
+        <div className="flex flex-col items-center text-center mb-24">
 
-            {/* Logo */}
-            <Image
-                src="/merch/ardhara-logo/ardhara-logo.png"
-                alt="Ardhara"
-                width={140}
-                height={140}
-                className="mb-8"
-            />
+          <Image
+            src="/merch/ardhara-logo/ardhara-logo.png"
+            alt="Ardhara"
+            width={140}
+            height={140}
+            className="mb-8"
+          />
 
-            {/* Texto */}
-            <p className="font-heading uppercase tracking-[0.35em] text-sm text-steel-light mb-3">
-                Merch oficial de
-            </p>
+          <p className="font-heading uppercase tracking-[0.35em] text-sm text-steel-light mb-3">
+            Merch oficial de
+          </p>
 
-            <h2 className="font-heading uppercase text-parchment text-5xl md:text-7xl lg:text-8xl leading-none">
-                ARDHARA
-            </h2>
+          <h2 className="font-heading uppercase text-parchment text-5xl md:text-7xl lg:text-8xl leading-none">
+            ARDHARA
+          </h2>
 
-            {/* Línea */}
+          <div className="w-48 h-px bg-white/15 my-8"></div>
 
-            <div className="w-48 h-px bg-white/15 my-8"></div>
+          <p className="font-body uppercase tracking-[0.25em] text-sm md:text-base text-blood">
+            Productos oficiales de El Asilo de la Bestia
+          </p>
 
-            <p className="font-body uppercase tracking-[0.25em] text-sm md:text-base text-steel-light">
-                Productos oficiales de El Asilo de la Bestia
-            </p>
+        </div>
 
-            </div>
 
         {/* ===================== REMERAS ===================== */}
 
@@ -78,6 +75,7 @@ export default function MerchSection() {
 
         </section>
 
+
         {/* ===================== ACCESORIOS ===================== */}
 
         <section className="mb-24">
@@ -112,6 +110,7 @@ export default function MerchSection() {
           </div>
 
         </section>
+
 
         {/* ===================== TAZAS ===================== */}
 
@@ -148,9 +147,60 @@ export default function MerchSection() {
 
         </section>
 
-        {/* ===================== BENEFICIOS ===================== */}
+       {/* ===================== ARDHARA CONTACT ===================== */}
+
+      <div className="mt-32 pt-10 ">
+
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-14">
+
+          {/* Logo */}
+          <Image
+            src="/merch/ardhara-logo/ardhara-logo.png"
+            alt="Ardhara"
+            width={110}
+            height={110}
+          />
+
+          {/* Contacto */}
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
+
+            <p className="font-heading uppercase tracking-[0.25em] text-sm text-steel-light mb-3">
+              Adquirí tu merch oficial
+            </p>
+
+            <p className="font-body text-sm text-parchment mb-5">
+              Pedidos y consultas
+            </p>
+
+            <div className="flex gap-5">
+
+              <a
+                href="#"
+                aria-label="WhatsApp Ardhara"
+                className="text-steel-light hover:text-white transition-colors"
+              >
+                <WhatsAppIcon />
+              </a>
+
+              <a
+                href="#"
+                aria-label="Instagram Ardhara"
+                className="text-steel-light hover:text-white transition-colors"
+              >
+                <InstagramIcon />
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
 
       </div>
+
+
+      </div>
+
     </section>
   );
 }

@@ -4,7 +4,7 @@ export const shirts = [
     image: "/merch/remeras/remera-alas.png",
     name: 'Remera "Alas"',
     price: "$ 1.150",
-    buttonText: "Ver Opciones",
+    buttonText: "Comprar",
     url: "#",
   },
   {
@@ -12,7 +12,7 @@ export const shirts = [
     image: "/merch/remeras/remera-caos.png",
     name: 'Remera "Caos"',
     price: "$ 1.150",
-    buttonText: "Ver Opciones",
+    buttonText: "Comprar",
     url: "#",
   },
   {
@@ -20,7 +20,7 @@ export const shirts = [
     image: "/merch/remeras/remera-refugio.png",
     name: 'Remera "Refugio"',
     price: "$ 1.150",
-    buttonText: "Ver Opciones",
+    buttonText: "Comprar",
     url: "#",
   },
   {
@@ -28,7 +28,7 @@ export const shirts = [
     image: "/merch/remeras/remera-logo.png",
     name: 'Remera "Logo"',
     price: "$ 1.150",
-    buttonText: "Ver Opciones",
+    buttonText: "Comprar",
     url: "#",
   },
 ];
@@ -39,7 +39,7 @@ export const accessories = [
     image: "/merch/accesorios/gorra.png",
     name: 'Gorra "Logo"',
     price: "$ 900",
-    buttonText: "Agregar al Carrito",
+    buttonText: "Comprar",
     url: "#",
   },
   {
@@ -47,7 +47,7 @@ export const accessories = [
     image: "/merch/accesorios/llavero.png",
     name: 'Llavero "Logo"',
     price: "$ 450",
-    buttonText: "Agregar al Carrito",
+    buttonText: "Comprar",
     url: "#",
   },
   {
@@ -55,7 +55,7 @@ export const accessories = [
     image: "/merch/accesorios/brazalete.png",
     name: 'Pulsera "Bestia"',
     price: "$ 350",
-    buttonText: "Agregar al Carrito",
+    buttonText: "Comprar",
     url: "#",
   },
   {
@@ -63,7 +63,7 @@ export const accessories = [
     image: "/merch/accesorios/gorra-de-lana.png",
     name: 'Gorro "Caos"',
     price: "$ 850",
-    buttonText: "Agregar al Carrito",
+    buttonText: "Comprar",
     url: "#",
   },
 ];
@@ -74,7 +74,7 @@ export const mugs = [
     image: "/merch/tazas/taza-alas.png",
     name: 'Taza "Alas"',
     price: "$ 700",
-    buttonText: "Agregar al Carrito",
+    buttonText: "Comprar",
     url: "#",
   },
   {
@@ -82,7 +82,7 @@ export const mugs = [
     image: "/merch/tazas/taza-caos.png",
     name: 'Taza "Caos"',
     price: "$ 700",
-    buttonText: "Agregar al Carrito",
+    buttonText: "Comprar",
     url: "#",
   },
   {
@@ -90,7 +90,7 @@ export const mugs = [
     image: "/merch/tazas/taza-logo.png",
     name: 'Taza "Logo"',
     price: "$ 700",
-    buttonText: "Agregar al Carrito",
+    buttonText: "Comprar",
     url: "#",
   },
   {
@@ -98,7 +98,7 @@ export const mugs = [
     image: "/merch/tazas/taza-instinto.png",
     name: 'Taza "Instinto"',
     price: "$ 700",
-    buttonText: "Agregar al Carrito",
+    buttonText: "Comprar",
     url: "#",
   },
 ];
