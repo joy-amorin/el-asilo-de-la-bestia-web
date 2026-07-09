@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-
+import { imageSize } from "image-size";
 import { GalleryEvent } from "@/app/types/gallery";
 
 const galleryPath = path.join(process.cwd(), "public/gallery");
@@ -20,9 +20,15 @@ const eventsConfig = [
   },
   {
     id: "santa-rosa",
-    name: "Santa Rosa",
-    location: "Sala Hugo Balzo",
+    name: "Santa Rosa Rock y ruedas",
+    location: "Santa Rosa",
     folder: "santa-rosa",
+  },
+  {
+    id: "rara-avis",
+    name: "Rara Avis",
+    location: "Sala Hugo Balzo",
+    folder: "rara-avis",
   },
 ];
 
@@ -39,17 +45,19 @@ export function getGalleryEvents(): GalleryEvent[] {
   .filter((file) =>
     /\.(webp|jpg|jpeg|png)$/i.test(file)
   )
-  .map((file, index) => ({
+  .map((file, index) => {
+  const filePath = path.join(folderPath, file);
+  const buffer = fs.readFileSync(filePath);
+  const dimensions = imageSize(buffer);
+
+  return {
     id: `${event.id}-${index}`,
     image: `/gallery/${event.folder}/${file}`,
     title: event.name,
-    size:
-      index % 5 === 0
-        ? ("large" as const)
-        : index % 3 === 0
-        ? ("wide" as const)
-        : ("normal" as const),
-  }));
+    width: dimensions.width ?? 0,
+    height: dimensions.height ?? 0,
+  };
+});
 
     return {
       id: event.id,

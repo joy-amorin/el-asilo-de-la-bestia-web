@@ -2,7 +2,8 @@ export interface GalleryItem {
   id: string;
   image: string;
   title: string;
-  size: "normal" | "wide" | "large";
+  width: number;
+  height: number;
 }
 
 export interface GalleryEvent {

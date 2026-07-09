@@ -19,7 +19,7 @@ export default function GalleryGrid({
               {event.name}
             </h2>
 
-            <p className="text-steel-light uppercase tracking-widest text-sm">
+            <p className="text-blood uppercase tracking-widest text-sm">
               {event.location}
             </p>
           </header>
