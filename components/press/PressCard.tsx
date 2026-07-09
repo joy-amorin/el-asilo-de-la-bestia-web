@@ -55,7 +55,7 @@ export default function PressCard({
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex w-full items-center justify-center border border-white/10 px-6 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:border-blood hover:bg-blood"
+            className="inline-flex w-full items-center justify-center border border-blood bg-blood px-8 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:bg-red-700"
           >
             {article.buttonText}
           </a>
