@@ -4,6 +4,7 @@ interface Video {
   id: number;
   year: string;
   title: string;
+  youtubeEmbed: string;
   youtube: string;
 }
 interface VideoCardProps {
@@ -18,7 +19,7 @@ export default function VideoCard({ video }: VideoCardProps) {
         <div className="aspect-video">
             <iframe
             className="w-full h-full rounded-lg"
-            src={video.youtube}
+            src={video.youtubeEmbed}
             title={video.title}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

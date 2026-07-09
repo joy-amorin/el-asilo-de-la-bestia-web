@@ -56,13 +56,15 @@ export const videos = [
     id: 1,
     year: "2025",
     title: "Enemigos",
-    youtube: "https://www.youtube.com/embed/6zqXlNTSwF4?si=EplgwaCr-P9f2mhG",
+    youtubeEmbed: "https://www.youtube.com/embed/6zqXlNTSwF4?si=EplgwaCr-P9f2mhG",
+    youtube: "https://www.youtube.com/watch?v=6zqXlNTSwF4&t=1s",
   },
   {
     id: 2,
     year: "2025",
     title: "Marinero de luces",
-    youtube: "https://www.youtube.com/embed/VPpTo4X_jMs?si=9wBk-eVq601ZS6R8",
+    youtubeEmbed: "https://www.youtube.com/embed/VPpTo4X_jMs?si=9wBk-eVq601ZS6R8",
+    youtube:"https://www.youtube.com/watch?v=VPpTo4X_jMs",
   },
 
 
