@@ -46,7 +46,7 @@ export const discography = [
     title: "Marinero de luces",
     cover: "/multimedia/Marinero-de-luces.png",
     description:
-      "Versión de un clásico de José Luis Perales.",
+      "Una reinterpretación de un clásico de José Luis Perales, donde la sensibilidad de la obra original se fusiona con la fuerza y personalidad de la banda.",
     spotify: "https://open.spotify.com/intl-es/track/74JWqVaHxALN8H6tuUHu5d?si=6c69c3e5b5954658",
   },
 ];
