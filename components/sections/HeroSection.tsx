@@ -40,7 +40,7 @@ export default function Hero() {
                   href="/multimedia"
                   className="flex items-center justify-between px-6 py-4 bg-[#d4c9b0] text-black text-[11px] tracking-[0.2em] font-bold uppercase hover:bg-white transition-colors group"
                 >
-                  ESCUCHAR MATERIAL
+                  ESCUCHAR
 
                   <span className="text-red-600 group-hover:translate-x-1 transition-transform">
                     <ArrowRight />
