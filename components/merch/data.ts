@@ -106,3 +106,26 @@ export const mugs = [
 export const features = [
  
 ];
+
+export const sizeCharts = [
+  {
+    id: 1,
+    title: "Buzos Adulto",
+    image: "/merch/tabla-de-medidas/buzos-adulto.webp",
+  },
+  {
+    id: 2,
+    title: "Remeras Adulto",
+    image: "/merch/tabla-de-medidas/remeras-adulto.webp",
+  },
+  {
+    id: 3,
+    title: "Remeras Kids",
+    image: "/merch/tabla-de-medidas/remera-kids.webp",
+  },
+  {
+    id: 4,
+    title: "Canguros Kids",
+    image: "/merch/tabla-de-medidas/canguro-kids.webp",
+  },
+];
