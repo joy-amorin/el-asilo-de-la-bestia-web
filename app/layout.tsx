@@ -21,8 +21,26 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "El Asilo de la bestia",
-  description: "Banda de rock Uruguaya.",
+  title: {
+    default: "El Asilo de la Bestia | Rock Uruguayo",
+    template: "%s | El Asilo de la Bestia",
+  },
+  description:
+    "El Asilo de la Bestia es una banda de rock uruguaya. Conocé nuestra música, próximos shows, galería, prensa y merch oficial.",
+  keywords: [
+    "El Asilo de la Bestia",
+    "rock uruguayo",
+    "banda uruguaya",
+    "rock nacional",
+    "música uruguaya",
+    "rock Montevideo",
+  ],
+  authors: [
+    {
+      name: "El Asilo de la Bestia",
+    },
+  ],
+  creator: "El Asilo de la Bestia",
 };
 
 export default function RootLayout({
@@ -32,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={` scroll-smooth ${geistSans.variable} ${geistMono.variable} ${anton.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-black ">
