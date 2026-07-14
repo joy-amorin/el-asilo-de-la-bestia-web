@@ -81,7 +81,7 @@ export default function AboutSection() {
 
           <p className="flex gap-x-2">
             <span className="text-blood">Guitarra / Flauta / Coros:</span>
-            <span className="text-parchment">Lorena Martínez</span>
+            <span className="text-parchment">Lorena Marz</span>
           </p>
 
           <p className="flex gap-x-2">
@@ -96,7 +96,7 @@ export default function AboutSection() {
 
           <p className="flex gap-x-2">
             <span className="text-blood">Batería:</span>
-            <span className="text-parchment">Nicolás Margini</span>
+            <span className="text-parchment">Nicolás Margni</span>
           </p>
 
           <p className="flex gap-x-2">
