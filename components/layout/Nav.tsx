@@ -90,7 +90,7 @@ export default function Nav() {
           </Link>
 
           <Link
-            href="https://facebook.com/elasilodelabestia"
+            href="https://www.facebook.com/asilodelabestia?rdid=Sr4aai3BZ61g0ViO&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18UPtFCgzS%2F#"
             aria-label="Facebook"
             className="hover:text-white transition-colors"
           >
