@@ -75,11 +75,11 @@ export default function Footer() {
 
         {/* Email */}
         <Link
-          href="mailto:contacto@elasilodelabestia.com"
+          href="mailto:contactoelasilodelabestia@gmail.com"
           className="inline-flex items-center gap-3 text-steel-light hover:text-parchment transition-colors duration-300 mb-10"
         >
           <MailIcon />
-          contacto@elasilodelabestia.com
+           contactoelasilodelabestia@gmail.com
         </Link>
 
         {/* Copyright */}
