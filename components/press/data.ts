@@ -26,4 +26,13 @@ export const pressArticles = [
     buttonText: "Leer",
     url: "https://corchea.uy/el-asilo-de-la-bestia-presenta-paradisus-unplugged/",
   },
+  {
+    id: 4,
+    image: "/prensa/perspectiva.jpg",
+    date: "",
+    title: "El Asilo de la Bestia presenta \"Paradisus et Infernus\"..",
+    source: "Perspectiva",
+    buttonText: "Leer",
+    url: "https://enperspectiva.uy/en-perspectiva-radio/la-conversacion/el-asilo-de-la-bestia-presenta-paradisus-et-infernus-un-espectaculo-que-explora-las-contradicciones-humanas/",
+  },
 ];
