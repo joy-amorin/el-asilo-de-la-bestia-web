@@ -18,18 +18,19 @@ const eventsConfig = [
     location: "Sala Zitarrosa",
     folder: "bandas-en-red",
   },
+   {
+    id: "rara-avis",
+    name: "Rara Avis",
+    location: "Sala Hugo Balzo",
+    folder: "rara-avis",
+  },
   {
     id: "santa-rosa",
     name: "Santa Rosa Rock y ruedas",
     location: "Santa Rosa",
     folder: "santa-rosa",
   },
-  {
-    id: "rara-avis",
-    name: "Rara Avis",
-    location: "Sala Hugo Balzo",
-    folder: "rara-avis",
-  },
+ 
 ];
 
 export function getGalleryEvents(): GalleryEvent[] {
