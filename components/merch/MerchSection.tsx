@@ -9,9 +9,9 @@ import { InstagramIcon, WhatsAppIcon } from "@/components/ui/SocialIcons";
 
 import {
   shirts,
-  accessories,
-  mugs,
+  tazas,
   sizeCharts,
+  canguros,
 } from "./data";
 
 interface SizeChart {
@@ -97,7 +97,7 @@ export default function MerchSection() {
             <div className="flex items-center gap-6 mb-10">
 
               <h3 className="font-heading uppercase text-4xl md:text-5xl whitespace-nowrap">
-                Accesorios
+                Canguros
               </h3>
 
               <div className="flex-1 h-px bg-white/10"></div>
@@ -106,7 +106,7 @@ export default function MerchSection() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
 
-              {accessories.map((product) => (
+              {canguros.map((product) => (
                 <ProductCard
                   key={product.id}
                   product={product}
@@ -141,7 +141,7 @@ export default function MerchSection() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
 
-              {mugs.map((product) => (
+              {tazas.map((product) => (
                 <ProductCard
                   key={product.id}
                   product={product}
