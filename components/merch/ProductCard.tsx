@@ -7,7 +7,7 @@ interface Product {
   price?: string;
   prices?: {
     adult: string;
-    kids: string;
+    kids?: string;
   };
   exclusive?: boolean;
   buttonText: string;
