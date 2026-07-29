@@ -51,7 +51,7 @@ export default function ProductCard({
 
         {product.prices && (
             <div className="mb-8">
-              <p className="font-heading text-sm text-steel-light">
+              <p className="font-heading text-lg text-steel-light">
                 {product.prices.adult && (
                   <>
                     Adulto{" "}
@@ -73,10 +73,20 @@ export default function ProductCard({
                     </span>
                   </>
                 )}
+                
               </p>
             </div>
           )}
-
+          {product.price && (
+          <div className="mb-8">
+            <p className="font-heading text-lg text-steel-light">
+             
+              <span className="font-heading text-blood">
+                {product.price}
+              </span>
+            </p>
+          </div>
+        )}
         <a
           href={product.url}
           className="mt-auto inline-flex items-center justify-center border border-blood bg-blood px-6 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:bg-red-700"
