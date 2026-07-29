@@ -7,8 +7,8 @@ export const shirts = [
     image: "/merch/remeras/remera-band.jpeg",
     name: "",
     prices: {
-      adult: "$ 900",
-      kids: "$ 600",
+      adult: "$ 950",
+      kids: "$ 650",
     },
     buttonText: "Comprar",
     url: whatsappUrl,
@@ -18,8 +18,8 @@ export const shirts = [
     image: "/merch/remeras/remera-logo.jpeg",
     name: "",
     prices: {
-      adult: "$ 900",
-      kids: "$ 600",
+      adult: "$ 950",
+      kids: "$ 650",
     },
     buttonText: "Comprar",
     url: whatsappUrl,
@@ -29,8 +29,8 @@ export const shirts = [
     image: "/merch/remeras/remera-woman-1.jpeg",
     name: "",
     prices: {
-      adult: "$ 900",
-      kids: "$ 600",
+      adult: "$ 950",
+      kids: "$ 650",
     },
     buttonText: "Comprar",
     url: whatsappUrl,
@@ -40,8 +40,8 @@ export const shirts = [
     image: "/merch/remeras/remera-woman-2.jpeg",
     name: "",
     prices: {
-      adult: "$ 900",
-      kids: "$ 600",
+      adult: "$ 950",
+      kids: "$ 650",
     },
     buttonText: "Comprar",
     url: whatsappUrl,
