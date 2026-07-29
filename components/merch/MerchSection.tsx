@@ -80,13 +80,6 @@ export default function MerchSection() {
 
             </div>
 
-            <div className="flex justify-center mt-12">
-
-              <button className="border border-blood px-10 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:bg-blood">
-                Ver todas las remeras
-              </button>
-
-            </div>
 
           </section>
 
@@ -115,13 +108,6 @@ export default function MerchSection() {
 
             </div>
 
-            <div className="flex justify-center mt-12">
-
-              <button className="border border-blood px-10 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:bg-blood">
-                Ver todos los accesorios
-              </button>
-
-            </div>
 
           </section>
 
@@ -147,14 +133,6 @@ export default function MerchSection() {
                   product={product}
                 />
               ))}
-
-            </div>
-
-            <div className="flex justify-center mt-12">
-
-              <button className="border border-blood px-10 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:bg-blood">
-                Ver todas las tazas
-              </button>
 
             </div>
 
@@ -186,14 +164,10 @@ export default function MerchSection() {
                   Adquirí tu merch oficial
                 </p>
 
-                <p className="font-body text-sm text-parchment mb-5">
-                  Pedidos y consultas
-                </p>
-
                 <div className="flex gap-5">
 
                   <a
-                    href="#"
+                    href="https://wa.me/59898685847?text=Hola%20Ardhara,%20quiero%20consultar%20por%20un%20producto."
                     aria-label="WhatsApp Ardhara"
                     className="text-steel-light hover:text-white transition-colors"
                   >
@@ -201,7 +175,7 @@ export default function MerchSection() {
                   </a>
 
                   <a
-                    href="#"
+                    href="https://instagram.com/ardhara.rock"
                     aria-label="Instagram Ardhara"
                     className="text-steel-light hover:text-white transition-colors"
                   >
