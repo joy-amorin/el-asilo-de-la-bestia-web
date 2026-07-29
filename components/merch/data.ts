@@ -98,8 +98,8 @@ export const canguros = [
     image: "/merch/canguros-buzos/canguro-woman-face-2.jpeg",
     name: "",
     prices: {
-      adult: "$ 1200",
-      kids: "$ 900",
+      adult: "$ 1450",
+      kids: "$ 1050",
     },
     buttonText: "Comprar",
     url: whatsappUrl,
@@ -109,8 +109,8 @@ export const canguros = [
     image: "/merch/canguros-buzos/canguro-woman-face-3.jpeg",
     name: "",
     prices: {
-      adult: "$ 1200",
-      kids: "$ 900",
+      adult: "$ 1450",
+      kids: "$ 1050",
     },
     buttonText: "Comprar",
     url: whatsappUrl,
