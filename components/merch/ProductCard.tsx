@@ -4,7 +4,12 @@ interface Product {
   id: number;
   image: string;
   name: string;
-  price: string;
+  price?: string;
+  prices?: {
+    adult: string;
+    kids: string;
+  };
+  exclusive?: boolean;
   buttonText: string;
   url: string;
 }
@@ -20,8 +25,13 @@ export default function ProductCard({
     <article className="group border border-white/10 bg-black/20 overflow-hidden transition-all duration-300 hover:border-blood">
 
       {/* Imagen */}
-
       <div className="relative aspect-square overflow-hidden">
+
+        {product.exclusive && (
+          <div className="absolute top-3 left-4 z-10 rounded bg-blood px-3 py-1 font-heading text-xs uppercase tracking-[0.15em] text-white">
+            Exclusivo
+          </div>
+        )}
 
         <Image
           src={product.image}
@@ -33,16 +43,39 @@ export default function ProductCard({
       </div>
 
       {/* Contenido */}
-
       <div className="p-6 flex flex-col">
 
         <h3 className="font-heading uppercase text-xl leading-tight text-parchment mb-3">
           {product.name}
         </h3>
 
-        <p className="font-heading text-blood text-lg mb-8">
-          {product.price}
-        </p>
+        {product.prices && (
+            <div className="mb-8">
+              <p className="font-heading text-sm text-steel-light">
+                {product.prices.adult && (
+                  <>
+                    Adulto{" "}
+                    <span className="font-heading text-blood">
+                      {product.prices.adult}
+                    </span>
+                  </>
+                )}
+
+                {product.prices.adult && product.prices.kids && (
+                  <span className="mx-2 text-steel">•</span>
+                )}
+
+                {product.prices.kids && (
+                  <>
+                    Niños{" "}
+                    <span className="font-heading text-blood">
+                      {product.prices.kids}
+                    </span>
+                  </>
+                )}
+              </p>
+            </div>
+          )}
 
         <a
           href={product.url}

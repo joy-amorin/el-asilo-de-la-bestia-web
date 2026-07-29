@@ -1,35 +1,50 @@
+const whatsappUrl =
+  "https://wa.me/59898685847?text=Hola%20Ardhara,%20quiero%20consultar%20por%20un%20producto.";
+
 export const shirts = [
   {
     id: 1,
     image: "/merch/remeras/remera-band.jpeg",
-    name: '',
-    price: "$ 900",
+    name: "",
+    prices: {
+      adult: "$ 900",
+      kids: "$ 600",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 2,
     image: "/merch/remeras/remera-logo.jpeg",
-    name: '',
-    price: "$ 900",
+    name: "",
+    prices: {
+      adult: "$ 900",
+      kids: "$ 600",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 3,
     image: "/merch/remeras/remera-woman-1.jpeg",
-    name: '',
-    price: "$ 900",
+    name: "",
+    prices: {
+      adult: "$ 900",
+      kids: "$ 600",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 4,
     image: "/merch/remeras/remera-woman-2.jpeg",
-    name: '',
-    price: "$ 900",
+    name: "",
+    prices: {
+      adult: "$ 900",
+      kids: "$ 600",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
 ];
 
@@ -37,54 +52,81 @@ export const canguros = [
   {
     id: 1,
     image: "/merch/canguros-buzos/canguro-band-1.jpeg",
-    name: '',
-    price: "$ 900",
+    name: "",
+    prices: {
+      adult: "$ 1450",
+      kids: "$ 1050",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 2,
     image: "/merch/canguros-buzos/canguro-band-2.jpeg",
-    name: '',
-    price: "$ 450",
+    name: "",
+    prices: {
+      adult: "$ 1450",
+      kids: "$ 1050",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 3,
     image: "/merch/canguros-buzos/canguro-band-3.jpeg",
-    name: '',
-    price: "$ 350",
+    name: "",
+    prices: {
+      adult: "$ 1450",
+      kids: "$ 1050",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 4,
     image: "/merch/canguros-buzos/canguro-woman-face-1.jpeg",
-    name: '',
-    price: "$ 850",
+    name: "",
+    prices: {
+      adult: "$ 1450",
+      kids: "$ 1050",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
-  
   {
     id: 5,
     image: "/merch/canguros-buzos/canguro-woman-face-2.jpeg",
-    name: '',
-    price: "$ 850",
+    name: "",
+    prices: {
+      adult: "$ 1200",
+      kids: "$ 900",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 6,
     image: "/merch/canguros-buzos/canguro-woman-face-3.jpeg",
-    name: '',
-    price: "$ 850",
+    name: "",
+    prices: {
+      adult: "$ 1200",
+      kids: "$ 900",
+    },
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
+
   },
-  
-  
+   {
+    id: 7,
+    image: "/merch/canguros-buzos/canguro-exclusivo.jpeg",
+    name: "",
+    prices: {
+      adult: "$ 1600",
+    },
+    exclusive: true,
+    buttonText: "Comprar",
+    url: whatsappUrl,
+  },
 ];
 
 export const tazas = [
@@ -92,33 +134,33 @@ export const tazas = [
     id: 1,
     image: "/merch/tazas/taza-woman.png",
     name: '',
-    price: "$ 700",
+    price: "$ 250",
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 2,
     image: "/merch/tazas/taza-band.png",
     name: '',
-    price: "$ 700",
+    price: "$ 250",
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 3,
     image: "/merch/tazas/taza-band-2.png",
     name: '',
-    price: "$ 700",
+    price: "$ 250",
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
   {
     id: 4,
     image: "/merch/tazas/taza-alas.png",
     name: '',
-    price: "$ 700",
+    price: "$ 250",
     buttonText: "Comprar",
-    url: "#",
+    url: whatsappUrl,
   },
 ];
 
