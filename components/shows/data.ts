@@ -1,41 +1,5 @@
 export const upcomingShows = [
   {
-    id: 1,
-    flyer: "/shows/proximos-shows/paradisus-1.jpg",
-    weekday: "Jueves",
-    day: "23",
-    month: "julio",
-    year: "2026",
-    time: "21:00 hs",
-    city: "Montevideo",
-    country: "Uruguay",
-    venue: "Sala Corchea",
-    address: "Soriano 1243",
-    description:
-      "Paradisus - El Asilo de la Bestia Unplugged",
-    ticketsUrl: "https://entradasfans.com/Paradisus-23-El-Asilo-de-la-Bestia-Unplugged/",
-    mapsUrl: "#",
-    ticketProvider: "Entradas fans",
-  },
-  {
-    id: 2,
-    flyer: "/shows/proximos-shows/paradisus-1.jpg",
-    weekday: "Viernes",
-    day: "24",
-    month: "julio",
-    year: "2026",
-    time: "21:00 hs",
-    city: "Montevideo",
-    country: "Uruguay",
-    venue: "Sala Corchea",
-    address: "Soriano 1243",
-    description:
-      "Paradisus - El Asilo de la Bestia Unplugged",
-    ticketsUrl: "https://entradasfans.com/Paradisus-24-El-Asilo-de-la-Bestia-Unplugged/",
-    mapsUrl: "#",
-    ticketProvider: "Entradas fans",
-  },
-  {
     id: 3,
     flyer: "/shows/proximos-shows/metal-ladies.jpeg",
     weekday: "Jueves",
@@ -54,8 +18,28 @@ export const upcomingShows = [
     ticketProvider: "Tickantel",
   
   },
+
   {
     id: 4,
+    flyer: "/shows/proximos-shows/show-rata-blanca.jpeg",
+    weekday: "Sábado",
+    day: "5",
+    month: "Setiembre",
+    year: "2026",
+    time: "21:00 hs",
+    city: "Montevideo",
+    country: "Uruguay",
+    venue: "Teatro Metro",
+    address: "San José 1211",
+    description:
+      "Rata Blanca Montevideo",
+    ticketsUrl: "https://redtickets.uy/evento/Rata-Blanca-en-Montevideo/28482/",
+    mapsUrl: "#",
+    ticketProvider: "Red Tickets",
+  
+  },
+  {
+    id: 5,
     flyer: "/shows/proximos-shows/infernus.png",
     weekday: "Jueves",
     day: "12",
@@ -73,6 +57,9 @@ export const upcomingShows = [
     ticketProvider: "Passline",
   
   },
+
+  
+  
   
 ];
 
