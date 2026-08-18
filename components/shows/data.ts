@@ -1,25 +1,5 @@
 export const upcomingShows = [
   {
-    id: 3,
-    flyer: "/shows/proximos-shows/metal-ladies.jpeg",
-    weekday: "Jueves",
-    day: "13",
-    month: "Agosto",
-    year: "2026",
-    time: "20:00 hs",
-    city: "Montevideo",
-    country: "Uruguay",
-    venue: "Sala Zitarrosa",
-    address: "18 de Julio 1012",
-    description:
-      "Rock & Metal Ladies",
-    ticketsUrl: "https://tickantel.com.uy/inicio/espectaculo/40020837/espectaculo/Rock%20y%20Metal%20Ladies?2",
-    mapsUrl: "#",
-    ticketProvider: "Tickantel",
-  
-  },
-
-  {
     id: 4,
     flyer: "/shows/proximos-shows/show-rata-blanca.jpeg",
     weekday: "Sábado",
