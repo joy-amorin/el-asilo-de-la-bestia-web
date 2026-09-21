@@ -6,24 +6,36 @@ import { GalleryEvent } from "@/app/types/gallery";
 const galleryPath = path.join(process.cwd(), "public/gallery");
 
 const eventsConfig = [
+
   {
-    id: "mutafest",
-    name: "Muta Fest",
-    location: "Pan de Azúcar",
-    folder: "mutafest",
+    id: "rata-blanca",
+    name: "Apertura a Rata Blanca",
+    location: "Teatro Metro",
+    folder: "rata-blanca",
   },
+
+  {
+    id: "rara-avis",
+    name: "Rara Avis",
+    location: "Sala Hugo Balzo",
+    folder: "rara-avis",
+  },
+
+
   {
     id: "bandas-en-red",
     name: "Bandas en Red",
     location: "Sala Zitarrosa",
     folder: "bandas-en-red",
   },
-   {
-    id: "rara-avis",
-    name: "Rara Avis",
-    location: "Sala Hugo Balzo",
-    folder: "rara-avis",
+
+  {
+    id: "mutafest",
+    name: "Muta Fest",
+    location: "Pan de Azúcar",
+    folder: "mutafest",
   },
+  
   {
     id: "santa-rosa",
     name: "Santa Rosa Rock y ruedas",
