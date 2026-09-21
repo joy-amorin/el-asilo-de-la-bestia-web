@@ -55,7 +55,8 @@ export default function AboutSection() {
                 entre otros, compartiendo escenario con bandas como NTVG, Buitres,
                 La Triple Nelson, Reytoro, Pecho e’ Fierro, Flema (ARG) y más. También ha organizado
                 sus propios recitales en Sala Camacuá y Espacio Midas. En 2025 realizó el concierto
-                RARA AVIS, con localidades agotadas en la sala Hugo Balzo del Sodre.
+                RARA AVIS, con localidades agotadas en la sala Hugo Balzo del Sodre. El 5 de septiembre 
+                de 2026 abrió el show de Rata Blanca en el Teatro Metro, durante su presentación en Montevideo.
               </p>
             </div>
           </div>
