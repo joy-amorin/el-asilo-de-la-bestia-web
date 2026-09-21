@@ -1,23 +1,5 @@
 export const upcomingShows = [
-  {
-    id: 4,
-    flyer: "/shows/proximos-shows/show-rata-blanca.jpeg",
-    weekday: "Sábado",
-    day: "5",
-    month: "Setiembre",
-    year: "2026",
-    time: "21:00 hs",
-    city: "Montevideo",
-    country: "Uruguay",
-    venue: "Teatro Metro",
-    address: "San José 1211",
-    description:
-      "Rata Blanca Montevideo",
-    ticketsUrl: "https://redtickets.uy/evento/Rata-Blanca-en-Montevideo/28482/",
-    mapsUrl: "#",
-    ticketProvider: "Red Tickets",
-  
-  },
+
   {
     id: 5,
     flyer: "/shows/proximos-shows/infernus.png",
