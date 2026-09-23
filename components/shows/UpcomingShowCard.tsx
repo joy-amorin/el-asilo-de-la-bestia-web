@@ -13,9 +13,9 @@ interface UpcomingShow {
   venue: string;
   address: string;
   description: string;
-  ticketsUrl: string;
+  ticketsUrl?: string;
   mapsUrl: string;
-  ticketProvider: string;
+  ticketProvider?: string;
 }
 
 interface UpcomingShowCardProps {
@@ -40,8 +40,9 @@ export default function UpcomingShowCard({
           <Image
             src={show.flyer}
             alt={`${show.city} - ${show.venue}`}
-            fill
-            className="object-cover transition-transform duration-500 hover:scale-105"
+            width={1254}
+            height={1254}
+            className="w-full h-auto transition-transform duration-500 hover:scale-105"
           />
         </div>
       </div>
@@ -96,34 +97,43 @@ export default function UpcomingShowCard({
 
         {/* Botón */}
 
-        <div className="mt-8">
+        {show.ticketsUrl && (
+          <div className="mt-8">
 
-          <a
-            href={show.ticketsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-           className="inline-flex items-center justify-center border border-blood bg-blood px-8 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:bg-red-700"
-          >
-            Comprar Entradas
-          </a>
+            <a
+              href={show.ticketsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center border border-blood bg-blood px-8 py-4 font-heading uppercase tracking-[0.2em] text-sm transition-all duration-300 hover:bg-red-700"
+            >
+              Comprar Entradas
+            </a>
 
-        </div>
+          </div>
+        )}
 
         {/* Links */}
 
-        <div className="flex flex-wrap gap-6 mt-8 text-sm font-heading uppercase tracking-[0.15em] text-steel-light">
+        {show.ticketProvider && (
+  <div className="flex flex-wrap gap-6 mt-8 text-sm font-heading uppercase tracking-[0.15em] text-steel-light">
 
-          <a
-            href={show.ticketsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-parchment transition-colors"
-          >
-            Entradas en {show.ticketProvider}
-          </a>
+    {show.ticketsUrl ? (
+      <a
+        href={show.ticketsUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-parchment transition-colors"
+      >
+        Entradas en {show.ticketProvider}
+      </a>
+    ) : (
+      <span>
+         {show.ticketProvider}
+      </span>
+    )}
 
-
-        </div>
+  </div>
+)}
 
       </div>
     </article>
